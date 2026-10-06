@@ -37,7 +37,8 @@ Na pasta principal existem atalhos que executam todo o processo:
 3. `03-validar-central.bat` — verifica o site antes da publicação;
 4. `04-primeira-publicacao.bat` — configura e envia a primeira versão ao GitHub;
 5. `05-publicar-atualizacao.bat` — publica as próximas alterações;
-6. `06-links-da-publicacao.bat` — abre configuração, andamento e site publicado.
+6. `06-links-da-publicacao.bat` — abre configuração, andamento e site publicado;
+7. `07-republicar-site.bat` — solicita nova publicação após ativar o Pages.
 
 Execute cada arquivo com dois cliques. A primeira publicação pode abrir o navegador para confirmar sua conta do GitHub.
 
