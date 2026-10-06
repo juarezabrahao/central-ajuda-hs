@@ -36,7 +36,8 @@ Na pasta principal existem atalhos que executam todo o processo:
 2. `02-visualizar-central.bat` — abre a central no navegador;
 3. `03-validar-central.bat` — verifica o site antes da publicação;
 4. `04-primeira-publicacao.bat` — configura e envia a primeira versão ao GitHub;
-5. `05-publicar-atualizacao.bat` — publica as próximas alterações.
+5. `05-publicar-atualizacao.bat` — publica as próximas alterações;
+6. `06-links-da-publicacao.bat` — abre configuração, andamento e site publicado.
 
 Execute cada arquivo com dois cliques. A primeira publicação pode abrir o navegador para confirmar sua conta do GitHub.
 
