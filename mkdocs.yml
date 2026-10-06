@@ -1,0 +1,89 @@
+site_name: Central de Ajuda — HS Automação Comercial
+site_description: Guias de implantação, operação e treinamento do HS Automação Comercial
+site_author: HS Automação Comercial
+site_url: https://juarezabrahao.github.io/central-ajuda-hs/
+
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Usar tema escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Usar tema claro
+
+plugins:
+  - search:
+      lang: pt
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - Início: index.md
+  - Primeiros passos:
+      - Visão geral: primeiros-passos/index.md
+      - Mapa dos módulos: primeiros-passos/modulos.md
+      - Roteiro de implantação: implantacao/checklist.md
+  - Retaguarda:
+      - Visão geral: retaguarda/index.md
+      - Cadastros: retaguarda/cadastros.md
+      - Produtos, preços e estoque: retaguarda/produtos-estoque.md
+      - Compras e notas de entrada: retaguarda/compras.md
+      - Financeiro e relatórios: retaguarda/financeiro-relatorios.md
+      - Produção e transformação: retaguarda/producao.md
+  - NF-e:
+      - Emissão e acompanhamento: nfe/index.md
+  - PDV:
+      - Operação do caixa: pdv/index.md
+      - Emitir NF-e pelo PDV: pdv/emitir-nfe.md
+      - Atalhos do caixa: pdv/atalhos.md
+      - PDV Monitor: pdv/monitor.md
+  - Balcão:
+      - Pedidos e orçamentos: balcao/index.md
+  - MDF-e:
+      - Manifestos: mdfe/index.md
+  - Fiscal:
+      - SPED e rotinas fiscais: fiscal/index.md
+  - Vídeos:
+      - Biblioteca de vídeos: videos/index.md
+      - Como adicionar um vídeo: videos/como-publicar.md
+  - Suporte:
+      - Dúvidas e atendimento: suporte/index.md
+  - Manutenção da central:
+      - Editar e publicar: administracao/editar-publicar.md
+
+extra:
+  generator: false
+
+copyright: HS Automação Comercial
