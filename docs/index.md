@@ -1,4 +1,4 @@
-# Central de Ajuda do HS Automação Comercial
+# Central de Ajuda do ERP Hiper Simples
 
 Encontre instruções para implantar, configurar e usar o sistema no dia a dia.
 

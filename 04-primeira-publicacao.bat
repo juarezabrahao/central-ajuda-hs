@@ -65,7 +65,7 @@ if errorlevel 1 goto :erro
 echo.
 echo Publicacao enviada com sucesso.
 echo Agora abra o repositorio, entre em Settings, Pages
-echo e selecione GitHub Actions em Source.
+echo e selecione a branch gh-pages com a pasta /(root).
 pause
 exit /b 0
 

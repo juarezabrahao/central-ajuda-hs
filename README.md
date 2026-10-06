@@ -1,4 +1,4 @@
-# Central de Ajuda — HS Automação Comercial
+# CENTRAL DE AJUDA DO ERP HIPER SIMPLES
 
 Documentação pública criada com [MkDocs](https://www.mkdocs.org/) e o tema Material.
 

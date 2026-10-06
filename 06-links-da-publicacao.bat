@@ -12,6 +12,7 @@ echo Abrindo o endereco publico da central...
 start "" "https://juarezabrahao.github.io/central-ajuda-hs/"
 
 echo.
-echo Em Settings - Pages, selecione GitHub Actions em Source.
+echo Em Settings - Pages, mantenha Deploy from a branch.
+echo Em Branch, selecione gh-pages e /(root), depois clique Save.
 echo Depois acompanhe a publicacao na aba Actions.
 pause

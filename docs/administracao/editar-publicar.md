@@ -196,10 +196,15 @@ Na primeira vez, uma janela do navegador poderá pedir autorização. Entre na c
 2. clique em **Settings** na barra superior do repositório;
 3. no menu esquerdo, clique em **Pages**;
 4. em **Build and deployment**, localize **Source**;
-5. selecione **GitHub Actions**;
-6. clique na aba **Actions** do repositório;
-7. abra a execução chamada **Publicar Central de Ajuda**;
-8. aguarde aparecer o símbolo verde de sucesso.
+5. mantenha **Deploy from a branch**;
+6. em **Branch**, escolha **gh-pages**;
+7. ao lado, escolha **/(root)**;
+8. clique em **Save**;
+9. clique na aba **Actions** do repositório;
+10. aguarde a publicação aparecer com o símbolo verde de sucesso.
+
+!!! warning "Não selecione main ou docs"
+    A branch `main` contém os textos Markdown. A branch `gh-pages` contém o site pronto, com menu, pesquisa e tema visual.
 
 Se a aba **Settings** não aparecer, confirme se você está dentro do seu repositório e se a conta conectada é a proprietária.
 
