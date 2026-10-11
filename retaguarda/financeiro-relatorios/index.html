@@ -1,0 +1,2919 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Guias de implantação, operação e treinamento do ERP Hiper Simples">
+      
+      
+        <meta name="author" content="HS Automação Comercial">
+      
+      
+        <link rel="canonical" href="https://juarezabrahao.github.io/central-ajuda-hs/retaguarda/financeiro-relatorios/">
+      
+      
+        <link rel="prev" href="../compras/">
+      
+      
+        <link rel="next" href="../producao/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Financeiro e relatórios - CENTRAL DE AJUDA DO ERP HIPER SIMPLES</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#manual-do-financeiro-e-relatorios" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="CENTRAL DE AJUDA DO ERP HIPER SIMPLES" class="md-header__button md-logo" aria-label="CENTRAL DE AJUDA DO ERP HIPER SIMPLES" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 18h2v-2h-2zm1-16A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m0-14a4 4 0 0 0-4 4h2a2 2 0 0 1 2-2 2 2 0 0 1 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5a4 4 0 0 0-4-4"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CENTRAL DE AJUDA DO ERP HIPER SIMPLES
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Financeiro e relatórios
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue"  aria-label="Usar tema escuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Usar tema escuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="blue"  aria-label="Usar tema claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Usar tema claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Compartilhar" aria-label="Compartilhar" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../primeiros-passos/" class="md-tabs__link">
+          
+  
+  
+  Primeiros passos
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+  Retaguarda
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../nfe/" class="md-tabs__link">
+          
+  
+  
+  NF-e
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../pdv/" class="md-tabs__link">
+          
+  
+  
+  PDV
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../balcao/" class="md-tabs__link">
+          
+  
+  
+  Balcão
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../mdfe/" class="md-tabs__link">
+          
+  
+  
+  MDF-e
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../fiscal/" class="md-tabs__link">
+          
+  
+  
+  Fiscal
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../videos/" class="md-tabs__link">
+          
+  
+  
+  Vídeos
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../suporte/" class="md-tabs__link">
+          
+  
+  
+  Suporte
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../administracao/editar-publicar/" class="md-tabs__link">
+          
+  
+  
+  Manutenção da central
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="CENTRAL DE AJUDA DO ERP HIPER SIMPLES" class="md-nav__button md-logo" aria-label="CENTRAL DE AJUDA DO ERP HIPER SIMPLES" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 18h2v-2h-2zm1-16A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m0-14a4 4 0 0 0-4 4h2a2 2 0 0 1 2-2 2 2 0 0 1 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5a4 4 0 0 0-4-4"/></svg>
+
+    </a>
+    CENTRAL DE AJUDA DO ERP HIPER SIMPLES
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Início
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Primeiros passos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Primeiros passos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../primeiros-passos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visão geral
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../primeiros-passos/modulos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mapa dos módulos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../implantacao/checklist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Roteiro de implantação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Retaguarda
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Retaguarda
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visão geral
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cadastros/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cadastros
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../produtos-estoque/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Produtos, preços e estoque
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../compras/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Compras e notas de entrada
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Financeiro e relatórios
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Financeiro e relatórios
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-visao-geral-da-tela-do-financeiro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Visão Geral da Tela do Financeiro
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Visão Geral da Tela do Financeiro">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#como-abrir-a-tela-do-financeiro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Como abrir a tela do Financeiro
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entendendo-as-abas-da-barra-lateral-esquerda" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entendendo as Abas da Barra Lateral Esquerda
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-contas-a-pagar-boletos-despesas-e-lancador" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Contas a Pagar: Boletos, Despesas e Lançador
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Contas a Pagar: Boletos, Despesas e Lançador">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-identificacao-de-quem-lancou-a-conta-operador-lancador" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 Identificação de quem lançou a conta (Operador Lançador)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-razao-social-do-fornecedor-e-parcelas-p1-p2-p3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 Razão Social do Fornecedor e Parcelas (-P1, -P2, -P3)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-passo-a-passo-onde-clicar-para-extrair-o-relatorio-de-contas-a-pagar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Passo a Passo: Onde Clicar para Extrair o Relatório de Contas a Pagar
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Passo a Passo: Onde Clicar para Extrair o Relatório de Contas a Pagar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#passo-1-acessar-a-aba-de-pagamentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 1: Acessar a aba de Pagamentos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-2-clicar-no-botao-de-impressao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 2: Clicar no botão de impressão
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-3-definir-o-periodo-de-vencimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 3: Definir o período de vencimento
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-4-conferir-imprimir-ou-salvar-em-pdf" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 4: Conferir, Imprimir ou Salvar em PDF
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-extrato-bancario-real-saldo-anterior-e-saldo-linha-a-linha" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Extrato Bancário Real: Saldo Anterior e Saldo Linha a Linha
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Extrato Bancário Real: Saldo Anterior e Saldo Linha a Linha">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-o-que-o-extrato-apresenta" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 O que o Extrato apresenta
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-passo-a-passo-onde-clicar-para-extrair-o-extrato-bancario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Passo a Passo: Onde Clicar para Extrair o Extrato Bancário
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Passo a Passo: Onde Clicar para Extrair o Extrato Bancário">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#passo-1-acessar-a-aba-de-caixa-e-bancos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 1: Acessar a aba de Caixa e Bancos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-2-clicar-no-menu-de-relatorios-do-caixa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 2: Clicar no menu de Relatórios do Caixa
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-3-selecionar-a-conta-e-as-datas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 3: Selecionar a Conta e as Datas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-4-como-conciliar-o-extrato-com-o-banco" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 4: Como conciliar o Extrato com o Banco
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-caixa-geral-e-sistema-de-reservas-provisoes-de-despesas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Caixa Geral e Sistema de Reservas (Provisões de Despesas)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Caixa Geral e Sistema de Reservas (Provisões de Despesas)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-como-funciona-o-fluxo-do-dinheiro-na-empresa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 Como funciona o fluxo do dinheiro na empresa
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-passo-a-passo-onde-clicar-para-cadastrar-as-contas-de-reserva" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Passo a Passo: Onde Clicar para Cadastrar as Contas de Reserva
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Passo a Passo: Onde Clicar para Cadastrar as Contas de Reserva">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#passo-1-abrir-o-cadastro-de-contas-correntes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 1: Abrir o cadastro de Contas Correntes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-2-incluir-uma-nova-conta-de-reserva" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 2: Incluir uma nova conta de reserva
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-passo-a-passo-onde-clicar-para-transferir-do-caixa-geral-para-a-reserva" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Passo a Passo: Onde Clicar para Transferir do Caixa Geral para a Reserva
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Passo a Passo: Onde Clicar para Transferir do Caixa Geral para a Reserva">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#passo-1-abrir-a-tela-de-transferencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 1: Abrir a tela de Transferência
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-2-preencher-a-conta-de-origem-de-onde-sai-o-dinheiro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 2: Preencher a Conta de Origem (de onde sai o dinheiro)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-3-escolher-a-conta-de-destino-para-onde-vai-o-dinheiro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 3: Escolher a Conta de Destino (para onde vai o dinheiro)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-como-consultar-o-saldo-guardado-em-cada-reserva" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Como Consultar o Saldo Guardado em Cada Reserva
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-como-acessar-qualquer-relatorio-pela-central-de-relatorios-ctrlr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Como Acessar Qualquer Relatório pela Central de Relatórios [CTRL+R]
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-resumo-rapido-de-atalhos-e-caminhos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Resumo Rápido de Atalhos e Caminhos
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../producao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Produção e transformação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NF-e
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    NF-e
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../nfe/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Emissão e acompanhamento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PDV
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    PDV
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pdv/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Operação do caixa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pdv/emitir-nfe/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Emitir NF-e pelo PDV
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pdv/atalhos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Atalhos do caixa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pdv/monitor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PDV Monitor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Balcão
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Balcão
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../balcao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pedidos e orçamentos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MDF-e
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    MDF-e
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mdfe/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Manifestos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fiscal
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fiscal
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fiscal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SPED e rotinas fiscais
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vídeos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Vídeos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../videos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Biblioteca de vídeos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../videos/como-publicar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Como adicionar um vídeo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Suporte
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Suporte
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../suporte/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dúvidas e atendimento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Manutenção da central
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Manutenção da central
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../administracao/editar-publicar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Editar e publicar
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-visao-geral-da-tela-do-financeiro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Visão Geral da Tela do Financeiro
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Visão Geral da Tela do Financeiro">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#como-abrir-a-tela-do-financeiro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Como abrir a tela do Financeiro
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entendendo-as-abas-da-barra-lateral-esquerda" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entendendo as Abas da Barra Lateral Esquerda
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-contas-a-pagar-boletos-despesas-e-lancador" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Contas a Pagar: Boletos, Despesas e Lançador
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Contas a Pagar: Boletos, Despesas e Lançador">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-identificacao-de-quem-lancou-a-conta-operador-lancador" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 Identificação de quem lançou a conta (Operador Lançador)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-razao-social-do-fornecedor-e-parcelas-p1-p2-p3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 Razão Social do Fornecedor e Parcelas (-P1, -P2, -P3)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-passo-a-passo-onde-clicar-para-extrair-o-relatorio-de-contas-a-pagar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Passo a Passo: Onde Clicar para Extrair o Relatório de Contas a Pagar
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Passo a Passo: Onde Clicar para Extrair o Relatório de Contas a Pagar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#passo-1-acessar-a-aba-de-pagamentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 1: Acessar a aba de Pagamentos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-2-clicar-no-botao-de-impressao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 2: Clicar no botão de impressão
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-3-definir-o-periodo-de-vencimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 3: Definir o período de vencimento
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-4-conferir-imprimir-ou-salvar-em-pdf" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 4: Conferir, Imprimir ou Salvar em PDF
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-extrato-bancario-real-saldo-anterior-e-saldo-linha-a-linha" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Extrato Bancário Real: Saldo Anterior e Saldo Linha a Linha
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Extrato Bancário Real: Saldo Anterior e Saldo Linha a Linha">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-o-que-o-extrato-apresenta" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 O que o Extrato apresenta
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-passo-a-passo-onde-clicar-para-extrair-o-extrato-bancario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Passo a Passo: Onde Clicar para Extrair o Extrato Bancário
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Passo a Passo: Onde Clicar para Extrair o Extrato Bancário">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#passo-1-acessar-a-aba-de-caixa-e-bancos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 1: Acessar a aba de Caixa e Bancos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-2-clicar-no-menu-de-relatorios-do-caixa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 2: Clicar no menu de Relatórios do Caixa
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-3-selecionar-a-conta-e-as-datas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 3: Selecionar a Conta e as Datas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-4-como-conciliar-o-extrato-com-o-banco" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 4: Como conciliar o Extrato com o Banco
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-caixa-geral-e-sistema-de-reservas-provisoes-de-despesas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Caixa Geral e Sistema de Reservas (Provisões de Despesas)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Caixa Geral e Sistema de Reservas (Provisões de Despesas)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-como-funciona-o-fluxo-do-dinheiro-na-empresa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 Como funciona o fluxo do dinheiro na empresa
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-passo-a-passo-onde-clicar-para-cadastrar-as-contas-de-reserva" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Passo a Passo: Onde Clicar para Cadastrar as Contas de Reserva
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Passo a Passo: Onde Clicar para Cadastrar as Contas de Reserva">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#passo-1-abrir-o-cadastro-de-contas-correntes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 1: Abrir o cadastro de Contas Correntes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-2-incluir-uma-nova-conta-de-reserva" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 2: Incluir uma nova conta de reserva
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-passo-a-passo-onde-clicar-para-transferir-do-caixa-geral-para-a-reserva" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Passo a Passo: Onde Clicar para Transferir do Caixa Geral para a Reserva
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Passo a Passo: Onde Clicar para Transferir do Caixa Geral para a Reserva">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#passo-1-abrir-a-tela-de-transferencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 1: Abrir a tela de Transferência
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-2-preencher-a-conta-de-origem-de-onde-sai-o-dinheiro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 2: Preencher a Conta de Origem (de onde sai o dinheiro)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passo-3-escolher-a-conta-de-destino-para-onde-vai-o-dinheiro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 3: Escolher a Conta de Destino (para onde vai o dinheiro)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-como-consultar-o-saldo-guardado-em-cada-reserva" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Como Consultar o Saldo Guardado em Cada Reserva
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-como-acessar-qualquer-relatorio-pela-central-de-relatorios-ctrlr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Como Acessar Qualquer Relatório pela Central de Relatórios [CTRL+R]
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-resumo-rapido-de-atalhos-e-caminhos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Resumo Rápido de Atalhos e Caminhos
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="manual-do-financeiro-e-relatorios">Manual do Financeiro e Relatórios<a class="headerlink" href="#manual-do-financeiro-e-relatorios" title="Permanent link">&para;</a></h1>
+<p>Este manual foi elaborado para orientar gestores, administradores e operadores do setor financeiro no uso diário do <strong>ERP Hiper Simples</strong>. As instruções foram organizadas em linguagem direta, prática e sem termos técnicos de programação, detalhando exatamente <strong>o caminho a seguir, onde clicar e como extrair cada relatório e dado do sistema</strong>.</p>
+<hr />
+<h2 id="1-visao-geral-da-tela-do-financeiro">1. Visão Geral da Tela do Financeiro<a class="headerlink" href="#1-visao-geral-da-tela-do-financeiro" title="Permanent link">&para;</a></h2>
+<h3 id="como-abrir-a-tela-do-financeiro">Como abrir a tela do Financeiro<a class="headerlink" href="#como-abrir-a-tela-do-financeiro" title="Permanent link">&para;</a></h3>
+<p>Existem 3 formas rápidas de abrir o Financeiro na Retaguarda:</p>
+<ol>
+<li><strong>Pelo Menu Superior:</strong> Clique no menu <strong>Financeiro</strong> no topo da tela inicial.</li>
+<li><strong>Pelo Ícone de Atalho:</strong> Clique no botão com o ícone de pasta/cifrão financeiro na barra de atalhos.</li>
+<li><strong>Pelo Teclado:</strong> Pressione o atalho global <strong><code>CTRL+W</code></strong> a qualquer momento na tela inicial da Retaguarda.</li>
+</ol>
+<h3 id="entendendo-as-abas-da-barra-lateral-esquerda">Entendendo as Abas da Barra Lateral Esquerda<a class="headerlink" href="#entendendo-as-abas-da-barra-lateral-esquerda" title="Permanent link">&para;</a></h3>
+<p>Ao abrir o Financeiro, a tela é dividida em seções práticas na coluna esquerda:</p>
+<ul>
+<li><strong>Início:</strong> Painel com indicadores, gráficos e resumo do dia.</li>
+<li><strong>Receber:</strong> Contas a receber de clientes, notas a prazo e convênios.</li>
+<li><strong>Pagar:</strong> Contas a pagar de fornecedores, despesas fixas, compras e tributos.</li>
+<li><strong>Caixa:</strong> Contas correntes bancárias (Itaú, Bradesco, etc.), caixas físicos internos, dinheiro e transferências.</li>
+<li><strong>Pessoas:</strong> Consulta de lançamentos agrupados por cliente ou fornecedor específico.</li>
+</ul>
+<hr />
+<h2 id="2-contas-a-pagar-boletos-despesas-e-lancador">2. Contas a Pagar: Boletos, Despesas e Lançador<a class="headerlink" href="#2-contas-a-pagar-boletos-despesas-e-lancador" title="Permanent link">&para;</a></h2>
+<p>O módulo de <strong>Contas a Pagar</strong> concentra todas as obrigações da empresa: boletos de fornecedores de mercadorias, despesas de água, luz, internet, aluguel, folha de pagamento, tributos e manutenções.</p>
+<h3 id="21-identificacao-de-quem-lancou-a-conta-operador-lancador">2.1 Identificação de quem lançou a conta (Operador Lançador)<a class="headerlink" href="#21-identificacao-de-quem-lancou-a-conta-operador-lancador" title="Permanent link">&para;</a></h3>
+<p>Para acabar de vez com anotações manuais de caneta nos relatórios impressos, o sistema registra automaticamente quem foi o operador responsável:
+- <strong>Na importação de XML de compra:</strong> o usuário logado que conferiu e gravou a entrada é gravado como lançador da conta.
+- <strong>No lançamento manual:</strong> o usuário logado é registrado na hora.
+- <strong>No relatório impresso:</strong> o nome do operador aparece em destaque no cabeçalho de cada fornecedor:<br />
+<code>Lançador: [Nome do Operador]</code> (ex.: <em>Lançador: CARLOS</em>, <em>Lançador: MARIANA</em>).</p>
+<h3 id="22-razao-social-do-fornecedor-e-parcelas-p1-p2-p3">2.2 Razão Social do Fornecedor e Parcelas (-P1, -P2, -P3)<a class="headerlink" href="#22-razao-social-do-fornecedor-e-parcelas-p1-p2-p3" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Razão Social Oficial:</strong> O relatório prioriza a Razão Social da nota fiscal de compra. Se a Razão Social não estiver preenchida no cadastro, o sistema usa o Nome Fantasia automaticamente. Não é necessário preencher o mesmo nome duas vezes.</li>
+<li><strong>Identificação das Parcelas (<code>Doc / Parc.</code>):</strong> O documento traz o número da nota com o sufixo da parcela:</li>
+<li><code>NF 15820-P1</code> = 1ª parcela da nota 15820;</li>
+<li><code>NF 15820-P2</code> = 2ª parcela da nota 15820;</li>
+<li><code>NF 15820-P3</code> = 3ª parcela da nota 15820.</li>
+</ul>
+<hr />
+<h2 id="3-passo-a-passo-onde-clicar-para-extrair-o-relatorio-de-contas-a-pagar">3. Passo a Passo: Onde Clicar para Extrair o Relatório de Contas a Pagar<a class="headerlink" href="#3-passo-a-passo-onde-clicar-para-extrair-o-relatorio-de-contas-a-pagar" title="Permanent link">&para;</a></h2>
+<p>Siga exatamente o roteiro abaixo para emitir e imprimir o relatório de contas a pagar com Razão Social, Lançador e Parcelas:</p>
+<h3 id="passo-1-acessar-a-aba-de-pagamentos">Passo 1: Acessar a aba de Pagamentos<a class="headerlink" href="#passo-1-acessar-a-aba-de-pagamentos" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Abra o Financeiro pressionando <strong><code>CTRL+W</code></strong> (ou menu <strong>Financeiro</strong>).</li>
+<li>Na barra lateral esquerda, clique no botão <strong>Pagar</strong> (o texto do botão fica em destaque amarelo e a tela entra no modo de pagamentos).</li>
+</ol>
+<h3 id="passo-2-clicar-no-botao-de-impressao">Passo 2: Clicar no botão de impressão<a class="headerlink" href="#passo-2-clicar-no-botao-de-impressao" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Na barra de botões no topo da tela, clique no botão <strong>Imprimir</strong> (botão com ícone de impressora).</li>
+<li>Ao clicar, abrirá um menu suspenso:</li>
+<li>Passe o mouse sobre a opção <strong>Contas por...</strong></li>
+<li>No submenu que se abre ao lado, clique em <strong>Data</strong>.<br />
+<em>(Se desejar ver receitas e despesas juntas, clique em </em><em>Receitas e despesas por... &gt; Data</em><em>).</em></li>
+</ol>
+<div class="highlight"><pre><span></span><code>[ Menu do Financeiro ]
+   └── [ Aba "Pagar" ]
+         └── Botão [ Imprimir ]
+               └── [ Contas por... ]
+                     └── Clique em: [ Data ]
+</code></pre></div>
+<h3 id="passo-3-definir-o-periodo-de-vencimento">Passo 3: Definir o período de vencimento<a class="headerlink" href="#passo-3-definir-o-periodo-de-vencimento" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Na janela de filtro de datas que se abrir:</li>
+<li>Informe a <strong>Data Inicial</strong> (ex.: <code>01/10/2026</code>);</li>
+<li>Informe a <strong>Data Final</strong> (ex.: <code>31/10/2026</code>);</li>
+<li>Clique no botão <strong>OK</strong> (ou pressione <strong>ENTER</strong>).</li>
+</ol>
+<h3 id="passo-4-conferir-imprimir-ou-salvar-em-pdf">Passo 4: Conferir, Imprimir ou Salvar em PDF<a class="headerlink" href="#passo-4-conferir-imprimir-ou-salvar-em-pdf" title="Permanent link">&para;</a></h3>
+<ol>
+<li>O relatório é exibido na tela no visualizador <strong>FastReport</strong>:</li>
+<li><strong>No topo de cada grupo:</strong> Confira o nome do fornecedor pela <strong>Razão Social</strong> e o <strong>Lançador</strong> responsável;</li>
+<li><strong>Nas colunas:</strong> Confira a coluna <strong>Doc / Parc.</strong> com o número e parcela (<code>-P1</code>, <code>-P2</code>), a data de vencimento e o valor;</li>
+<li><strong>Para Imprimir:</strong> Clique no ícone de <strong>Impressora</strong> no canto superior esquerdo da tela de visualização, escolha a impressora e confirme;</li>
+<li><strong>Para Salvar em PDF:</strong> Clique no ícone de <strong>PDF</strong> (ou no disquete de salvar), selecione a pasta do seu computador onde quer salvar o arquivo e clique em <strong>Salvar</strong>.</li>
+</ol>
+<hr />
+<h2 id="4-extrato-bancario-real-saldo-anterior-e-saldo-linha-a-linha">4. Extrato Bancário Real: Saldo Anterior e Saldo Linha a Linha<a class="headerlink" href="#4-extrato-bancario-real-saldo-anterior-e-saldo-linha-a-linha" title="Permanent link">&para;</a></h2>
+<p>O <strong>Extrato de Conta Corrente / Bancária</strong> foi projetado para conciliar centavo por centavo com o aplicativo do seu banco (Itaú, Bradesco, Caixa Econômica, Banco do Brasil, etc.) ou conferir caixas físicos internos.</p>
+<h3 id="41-o-que-o-extrato-apresenta">4.1 O que o Extrato apresenta<a class="headerlink" href="#41-o-que-o-extrato-apresenta" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Saldo Anterior ao Período:</strong> Quanto havia na conta antes do primeiro segundo da data inicial;</li>
+<li><strong>Lançamentos Cronológicos:</strong> Data, Número do Documento, Histórico/Descrição, Entrada (Crédito), Saída (Débito);</li>
+<li><strong>Saldo Acumulado Linha a Linha:</strong> Recalculado imediatamente após cada lançamento;</li>
+<li><strong>Totais e Saldo Final Atualizado:</strong> No rodapé, apresenta Total de Entradas, Total de Saídas e o <strong>Saldo Atualizado / Final</strong>.</li>
+</ul>
+<hr />
+<h2 id="5-passo-a-passo-onde-clicar-para-extrair-o-extrato-bancario">5. Passo a Passo: Onde Clicar para Extrair o Extrato Bancário<a class="headerlink" href="#5-passo-a-passo-onde-clicar-para-extrair-o-extrato-bancario" title="Permanent link">&para;</a></h2>
+<p>Siga este roteiro para emitir o extrato de qualquer conta bancária ou interna:</p>
+<h3 id="passo-1-acessar-a-aba-de-caixa-e-bancos">Passo 1: Acessar a aba de Caixa e Bancos<a class="headerlink" href="#passo-1-acessar-a-aba-de-caixa-e-bancos" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Abra o Financeiro pressionando <strong><code>CTRL+W</code></strong> (ou menu <strong>Financeiro</strong>).</li>
+<li>Na barra lateral esquerda, clique no botão <strong>Caixa</strong> (o texto do botão fica amarelo e a tela mostra as contas correntes e movimentos).</li>
+</ol>
+<h3 id="passo-2-clicar-no-menu-de-relatorios-do-caixa">Passo 2: Clicar no menu de Relatórios do Caixa<a class="headerlink" href="#passo-2-clicar-no-menu-de-relatorios-do-caixa" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Na barra de botões superior, localize e clique no botão <strong>Relatórios</strong> (botão com ícone de relatório/impressora).</li>
+<li>No menu que se abre, clique na opção:</li>
+<li><strong>Extrato de Conta Corrente / Bancária</strong>.</li>
+</ol>
+<div class="highlight"><pre><span></span><code>[ Menu do Financeiro ]
+   └── [ Aba "Caixa" ]
+         └── Botão [ Relatórios ]
+               └── Clique em: [ Extrato de Conta Corrente / Bancária ]
+</code></pre></div>
+<h3 id="passo-3-selecionar-a-conta-e-as-datas">Passo 3: Selecionar a Conta e as Datas<a class="headerlink" href="#passo-3-selecionar-a-conta-e-as-datas" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Na janela de filtro que surge na tela:</li>
+<li><strong>Data Inicial (DI):</strong> Digite a data inicial da consulta (exemplo: <code>01/10/2026</code>);</li>
+<li><strong>Data Final (DF):</strong> Digite a data final da consulta (exemplo: <code>10/10/2026</code>);</li>
+<li><strong>Conta Corrente:</strong> Clique na caixinha de seleção e escolha:<ul>
+<li>Para o Banco Itaú: selecione <code>01 - BANCO ITAU S/A</code>;</li>
+<li>Para o cofre: selecione <code>CAIXA GERAL</code>;</li>
+<li>Para uma reserva: selecione <code>RESERVA - 13º SALÁRIO</code>, <code>RESERVA - ALUGUEL</code>, etc.;</li>
+<li>Ou deixe <code>&lt;Todas as Contas&gt;</code> para emitir o extrato consolidado de todas as contas.</li>
+</ul>
+</li>
+<li>Clique no botão <strong>OK</strong> (ou pressione a tecla <strong>ENTER</strong>).</li>
+</ol>
+<h3 id="passo-4-como-conciliar-o-extrato-com-o-banco">Passo 4: Como conciliar o Extrato com o Banco<a class="headerlink" href="#passo-4-como-conciliar-o-extrato-com-o-banco" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Na visualização do relatório:</li>
+<li>Confira o valor de <strong>SALDO ANTERIOR AO PERÍODO</strong> logo abaixo do nome da conta;</li>
+<li>Compare cada linha de entrada e saída com o extrato do aplicativo do seu banco;</li>
+<li>Olhe o <strong>SALDO ATUALIZADO / FINAL</strong> no rodapé: se for exatamente o mesmo saldo do aplicativo do banco, sua conciliação está perfeita e encerrada.</li>
+<li>Use o ícone de <strong>Impressora</strong> para imprimir ou o ícone de <strong>PDF</strong> para exportar e arquivar.</li>
+</ol>
+<hr />
+<h2 id="6-caixa-geral-e-sistema-de-reservas-provisoes-de-despesas">6. Caixa Geral e Sistema de Reservas (Provisões de Despesas)<a class="headerlink" href="#6-caixa-geral-e-sistema-de-reservas-provisoes-de-despesas" title="Permanent link">&para;</a></h2>
+<p>Muitas empresas faturam bem diariamente, mas chegam no final do mês ou no final do ano com dificuldades para pagar o <strong>13º salário</strong>, o <strong>aluguel</strong> ou os <strong>impostos</strong>, porque todo o dinheiro que entra no caixa acaba sendo gasto no dia a dia.</p>
+<p>Para resolver esse problema, o ERP Hiper Simples permite organizar o fluxo financeiro separando o dinheiro em <strong>Contas de Reserva</strong>.</p>
+<h3 id="61-como-funciona-o-fluxo-do-dinheiro-na-empresa">6.1 Como funciona o fluxo do dinheiro na empresa<a class="headerlink" href="#61-como-funciona-o-fluxo-do-dinheiro-na-empresa" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>┌──────────────────────────────────────────────┐
+│        CAIXAS PDV (1º ao 4º Caixa)           │
+└──────────────────────┬───────────────────────┘
+                       │ (Sangrias e fechamentos em dinheiro físico)
+                       ▼
+┌──────────────────────────────────────────────┐
+│           CAIXA GERAL (COFRE)                │
+└──────────────────────┬───────────────────────┘
+                       │
+                       ├─► [ RESERVA - ALUGUEL ]
+                       ├─► [ RESERVA - SALÁRIOS ]
+                       ├─► [ RESERVA - 13º SALÁRIO ]
+                       ├─► [ RESERVA - DESPESAS GERAIS ]
+                       └─► [ RESERVA - IPVA / MANUTENÇÃO ]
+</code></pre></div>
+<ol>
+<li><strong>Caixas PDV (Frente de Loja):</strong> Sangrias e fechamentos em dinheiro descem para o <strong>Caixa Geral (Cofre)</strong>. Cartões e PIX caem diretamente nas contas bancárias.</li>
+<li><strong>Caixa Geral (Cofre Central):</strong> Representa o cofre físico da sua loja.</li>
+<li><strong>Contas de Reserva:</strong> Contas internas onde você guarda antecipadamente quantias para compromissos futuros.</li>
+</ol>
+<hr />
+<h2 id="7-passo-a-passo-onde-clicar-para-cadastrar-as-contas-de-reserva">7. Passo a Passo: Onde Clicar para Cadastrar as Contas de Reserva<a class="headerlink" href="#7-passo-a-passo-onde-clicar-para-cadastrar-as-contas-de-reserva" title="Permanent link">&para;</a></h2>
+<p>Você só precisa fazer este cadastro uma única vez no sistema:</p>
+<h3 id="passo-1-abrir-o-cadastro-de-contas-correntes">Passo 1: Abrir o cadastro de Contas Correntes<a class="headerlink" href="#passo-1-abrir-o-cadastro-de-contas-correntes" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Na tela inicial da Retaguarda, clique no menu superior:<br />
+<strong>Cadastros &gt; Financeiro &gt; Contas Correntes</strong><br />
+<em>(Alternativa: dentro do Financeiro, na aba </em><em>Caixa</em><em>, clique em </em><em>Ferramentas &gt; Contas`).</em></li>
+</ol>
+<h3 id="passo-2-incluir-uma-nova-conta-de-reserva">Passo 2: Incluir uma nova conta de reserva<a class="headerlink" href="#passo-2-incluir-uma-nova-conta-de-reserva" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Na janela de contas, clique no botão <strong>Novo</strong> (ou pressione a tecla de atalho <strong><code>F2</code></strong>).</li>
+<li>Preencha os campos da seguinte forma:</li>
+<li><strong>Descrição:</strong> Digite o nome da provisão. Exemplos recomendados:<ul>
+<li><code>RESERVA - ALUGUEL</code></li>
+<li><code>RESERVA - SALÁRIOS</code></li>
+<li><code>RESERVA - 13º SALÁRIO</code></li>
+<li><code>RESERVA - DESPESAS GERAIS</code></li>
+<li><code>RESERVA - IPVA / IMPOSTOS</code></li>
+<li><code>RESERVA - MANUTENÇÃO</code></li>
+</ul>
+</li>
+<li><strong>Tipo de Conta:</strong> Selecione a opção <strong>Caixa / Interno</strong>.</li>
+<li><strong>Saldo Inicial:</strong> Deixe <code>0,00</code> (ou informe o valor caso já exista dinheiro guardado).</li>
+<li>Clique no botão <strong>Salvar</strong> (ou pressione a tecla <strong><code>F10</code></strong>).</li>
+<li>Repita o procedimento para as demais reservas que desejar criar.</li>
+</ol>
+<hr />
+<h2 id="8-passo-a-passo-onde-clicar-para-transferir-do-caixa-geral-para-a-reserva">8. Passo a Passo: Onde Clicar para Transferir do Caixa Geral para a Reserva<a class="headerlink" href="#8-passo-a-passo-onde-clicar-para-transferir-do-caixa-geral-para-a-reserva" title="Permanent link">&para;</a></h2>
+<p>Toda semana ou todo mês, ao retirar dinheiro do cofre físico para guardar para uma despesa futura:</p>
+<h3 id="passo-1-abrir-a-tela-de-transferencia">Passo 1: Abrir a tela de Transferência<a class="headerlink" href="#passo-1-abrir-a-tela-de-transferencia" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Abra o Financeiro pressionando <strong><code>CTRL+W</code></strong>.</li>
+<li>Na barra lateral esquerda, clique em <strong>Caixa</strong>.</li>
+<li>Na barra de botões superior, clique no botão <strong>Ferramentas</strong> (ícone de engrenagem/ferramentas).</li>
+<li>No menu que se abre, clique em <strong>Transferência entre Contas</strong>.</li>
+</ol>
+<div class="highlight"><pre><span></span><code>[ Menu do Financeiro ]
+   └── [ Aba "Caixa" ]
+         └── Botão [ Ferramentas ]
+               └── Clique em: [ Transferência entre Contas ]
+</code></pre></div>
+<h3 id="passo-2-preencher-a-conta-de-origem-de-onde-sai-o-dinheiro">Passo 2: Preencher a Conta de Origem (de onde sai o dinheiro)<a class="headerlink" href="#passo-2-preencher-a-conta-de-origem-de-onde-sai-o-dinheiro" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Na primeira tela (aba <strong>Origem</strong>):</li>
+<li><strong>Conta de Origem:</strong> Clique na lista e selecione <code>CAIXA GERAL</code> (ou a conta bancária de onde o dinheiro está saindo);</li>
+<li><strong>Valor:</strong> Digite o valor exato a ser guardado (exemplo: <code>500,00</code>);</li>
+<li><strong>Forma de Pagamento:</strong> Selecione <code>DINHEIRO</code> (ou Transferência Bancária);</li>
+<li><strong>Descrição / Histórico:</strong> Digite o motivo (exemplo: <em>Provisão semanal de 13º salário - semana 41</em>);</li>
+<li><strong>Data:</strong> Confirme a data da operação;</li>
+<li>Clique no botão <strong>Próximo &gt;</strong> (no canto inferior direito).</li>
+</ol>
+<h3 id="passo-3-escolher-a-conta-de-destino-para-onde-vai-o-dinheiro">Passo 3: Escolher a Conta de Destino (para onde vai o dinheiro)<a class="headerlink" href="#passo-3-escolher-a-conta-de-destino-para-onde-vai-o-dinheiro" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Na segunda tela (aba <strong>Destino</strong>):</li>
+<li><strong>Conta de Destino:</strong> Selecione a conta de reserva correspondente (exemplo: <code>RESERVA - 13º SALÁRIO</code>);</li>
+<li>Clique no botão <strong>Finalizar</strong>.</li>
+</ol>
+<div class="admonition success">
+<p class="admonition-title">Operação Concluída com Sucesso</p>
+<p>O sistema retira o valor do Caixa Geral (lançando um débito/saída no cofre) e credita o valor na Conta de Reserva (lançando um crédito/entrada). Tudo fica registrado com data, hora e usuário responsável.</p>
+</div>
+<hr />
+<h2 id="9-como-consultar-o-saldo-guardado-em-cada-reserva">9. Como Consultar o Saldo Guardado em Cada Reserva<a class="headerlink" href="#9-como-consultar-o-saldo-guardado-em-cada-reserva" title="Permanent link">&para;</a></h2>
+<p>Para saber a qualquer momento quanto dinheiro está acumulado em cada reserva:</p>
+<ol>
+<li>Abra o <strong>Financeiro</strong> (<code>CTRL+W</code>);</li>
+<li>Clique na aba <strong>Caixa</strong>;</li>
+<li>Clique no botão <strong>Relatórios &gt; Extrato de Conta Corrente / Bancária</strong>;</li>
+<li>No campo <strong>Conta Corrente</strong>, selecione a reserva que deseja consultar (ex.: <code>RESERVA - 13º SALÁRIO</code>);</li>
+<li>Defina o período desde o início do ano até a data de hoje;</li>
+<li>Clique em <strong>OK</strong>.<br />
+<em>O extrato listará todas as transferências que foram guardadas e mostrará no rodapé o </em><em>Saldo Atualizado</em><em> exato disponível para uso.</em></li>
+</ol>
+<hr />
+<h2 id="10-como-acessar-qualquer-relatorio-pela-central-de-relatorios-ctrlr">10. Como Acessar Qualquer Relatório pela Central de Relatórios [CTRL+R]<a class="headerlink" href="#10-como-acessar-qualquer-relatorio-pela-central-de-relatorios-ctrlr" title="Permanent link">&para;</a></h2>
+<p>Para facilitar o dia a dia sem precisar navegar por vários menus, utilize a <strong>Central de Relatórios</strong>:</p>
+<ol>
+<li>Na tela principal da Retaguarda, pressione o atalho <strong><code>CTRL+R</code></strong> no teclado.</li>
+<li>Na janela que se abre:</li>
+<li>Digite no campo de busca palavras como <code>contas</code>, <code>caixa</code>, <code>extrato</code>, <code>vencimento</code>, <code>promissoria</code>, <code>fechamento</code>.</li>
+<li>A lista filtra instantaneamente todos os relatórios correspondentes.</li>
+<li>Utilize as setas do teclado ($\uparrow$ e $\downarrow$) para posicionar no relatório desejado.</li>
+<li>Pressione a tecla <strong>ENTER</strong> ou clique no botão <strong>Abrir (F8)</strong> para iniciar o relatório imediatamente.</li>
+</ol>
+<hr />
+<h2 id="11-resumo-rapido-de-atalhos-e-caminhos">11. Resumo Rápido de Atalhos e Caminhos<a class="headerlink" href="#11-resumo-rapido-de-atalhos-e-caminhos" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>O que você deseja fazer</th>
+<th>Onde Clicar / Atalho</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Abrir o Financeiro</strong></td>
+<td>Menu <em>Financeiro</em> ou atalho <strong><code>CTRL+W</code></strong></td>
+</tr>
+<tr>
+<td><strong>Relatório de Contas a Pagar</strong></td>
+<td>Financeiro &gt; Aba <em>Pagar</em> &gt; Botão <em>Imprimir</em> &gt; <em>Contas por... &gt; Data</em></td>
+</tr>
+<tr>
+<td><strong>Extrato Bancário Analítico</strong></td>
+<td>Financeiro &gt; Aba <em>Caixa</em> &gt; Botão <em>Relatórios</em> &gt; <em>Extrato de Conta Corrente / Bancária</em></td>
+</tr>
+<tr>
+<td><strong>Cadastrar Contas de Reserva</strong></td>
+<td>Menu <em>Cadastros &gt; Financeiro &gt; Contas Correntes</em> &gt; Botão <em>Novo (F2)</em></td>
+</tr>
+<tr>
+<td><strong>Transferir Dinheiro para Reserva</strong></td>
+<td>Financeiro &gt; Aba <em>Caixa</em> &gt; Botão <em>Ferramentas</em> &gt; <em>Transferência entre Contas</em></td>
+</tr>
+<tr>
+<td><strong>Pesquisa Rápida de Relatórios</strong></td>
+<td>Pressione <strong><code>CTRL+R</code></strong> em qualquer lugar da tela inicial</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar para o topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
+        
+          
+          <a href="../compras/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Compras e notas de entrada">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                Compras e notas de entrada
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../producao/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Produção e transformação">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              <div class="md-ellipsis">
+                Produção e transformação
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      HS Automação Comercial
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.tracking", "navigation.tabs", "navigation.sections", "navigation.expand", "navigation.footer", "navigation.top", "search.suggest", "search.highlight", "search.share", "toc.follow", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
